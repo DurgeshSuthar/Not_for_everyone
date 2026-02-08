@@ -1,0 +1,71 @@
+.ytm-card {
+  max-width: 360px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #3a0000, #120000);
+  color: white;
+  text-align: center;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+.cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 16px;
+border: 1px solid rgb(253, 253, 253);
+}
+
+.title {
+  margin: 0px 0 4px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.artist {
+  margin: 0 0 16px;
+  opacity: 0.8;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.bar {
+  flex: 1;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: white;
+  width: 0%;
+  transition: width 0.2s linear;
+}
+
+.play-big {
+  margin: 20px auto 8px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.play-big:active {
+  transform: scale(0.95);
+}
