@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { Play, Pause } from "lucide-react";
 import './Music.css'
 
 export default function MusicGift() {
@@ -42,8 +43,8 @@ export default function MusicGift() {
       </div>
 
       <button className="play-big" onClick={togglePlay}>
-        {playing ? "⏸" : "▶"}
-      </button>
+  {playing ? <Pause size={34} fill="black" /> : <Play size={34} fill="black" />}
+</button>
 
       <audio
         ref={audioRef}

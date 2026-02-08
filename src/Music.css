@@ -54,9 +54,9 @@ border: 1px solid rgb(253, 253, 253);
 }
 
 .play-big {
-  margin: 20px auto 8px;
-  width: 72px;
-  height: 72px;
+  margin: 10px auto 8px;
+  width: 85px;
+  height: 78px;
   border-radius: 50%;
   border: none;
   background: white;
